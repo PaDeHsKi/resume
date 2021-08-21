@@ -552,7 +552,7 @@ p {
 #contact .contact {
   flex-direction: column;
   max-width: 1200px;
-  margin: -12em auto auto auto;
+  margin: -5em auto auto auto;
 }
 
 #contact .contact-items {
