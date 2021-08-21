@@ -259,7 +259,7 @@ p {
   justify-content: flex-start;
 }
 #hero .hero-detail {
-  margin-top: -10em;
+  margin-top: -5em;
 }
 
 #hero h1 {
@@ -552,7 +552,7 @@ p {
 #contact .contact {
   flex-direction: column;
   max-width: 1200px;
-  margin: -15em auto auto auto;
+  margin: -12em auto auto auto;
 }
 
 #contact .contact-items {
