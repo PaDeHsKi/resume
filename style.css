@@ -36,7 +36,7 @@ img {
 
 p {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin-top: 5px;
   line-height: 2.5rem;
   font-weight: 300;
@@ -258,6 +258,9 @@ p {
   padding: 0 50px;
   justify-content: flex-start;
 }
+#hero .hero-detail {
+  margin-top: -10em;
+}
 
 #hero h1 {
   display: block;
@@ -335,6 +338,9 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+}
+#services .service-bottom .service-item h2 {
+  color: rgb(230, 61, 95);
 }
 
 #services .service-item {
@@ -428,9 +434,14 @@ p {
   color: whitesmoke;
 }
 
-#projects .project-info h1 {
+#projects .project-info a {
+  text-decoration: none;
+  color: crimson;
   font-size: 4rem;
   font-weight: 500;
+}
+#projects .project-info a:hover {
+  color: rgb(21, 82, 173);
 }
 
 #projects .project-info h2 {
@@ -445,7 +456,8 @@ p {
 
 #projects .project-img {
   flex-basis: 50%;
-  height: 300px;
+  width: 500px;
+  height: auto;
   overflow: hidden;
   position: relative;
 }
@@ -540,7 +552,7 @@ p {
 #contact .contact {
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -15em auto auto auto;
 }
 
 #contact .contact-items {
