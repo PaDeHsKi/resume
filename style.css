@@ -15,6 +15,10 @@ html {
 a {
   text-decoration: none;
 }
+hr {
+  color: crimson;
+  font-size: 2em;
+}
 
 .container {
   min-height: 100vh;
@@ -227,7 +231,7 @@ p {
 /* end of header Section */
 /* Hero Section */
 #hero {
-  background-image: url(./images/Snapchat-1886897106.jpg);
+  background-image: url(./images/2349076507170_status_2610bb8140704d7daf37b69365f712e1~2.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -305,6 +309,11 @@ p {
 
 /* Services section */
 #services {
+  margin-top: -5em;
+}
+#services img {
+  width: 13em;
+  height: auto;
 }
 
 #services .services {
@@ -316,7 +325,7 @@ p {
 }
 
 #services .service-top {
-  max-width: 500px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -380,7 +389,7 @@ p {
 #projects .projects {
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -13em auto auto auto;
   padding: 100px 0;
 }
 
@@ -415,7 +424,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #29323c 0%, #4855 100%);
+  background-image: linear-gradient(60deg, #3d6da3 0%, #4855 100%);
   color: whitesmoke;
 }
 
@@ -448,7 +457,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, #2462aa 0%, #485563 100%);
   opacity: 0.7;
 }
 
@@ -467,7 +476,7 @@ p {
   flex-direction: column-reverse;
   text-align: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -13em auto auto auto;
   padding: 100px 20px;
 }
 
@@ -480,6 +489,14 @@ p {
   width: 100%;
 }
 
+#about .col-right .mentors {
+  display: flex;
+}
+#about .col-right .mentors img {
+  width: 12em;
+  height: auto;
+  margin: auto 1em;
+}
 #about .col-right h2 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -654,7 +671,7 @@ p {
 /* media query for tablet*/
 @media only screen and (min-width: 768px) {
   .cta {
-    font: size 2.5rem;
+    font-size: 2.5rem;
     padding: 20px 60px;
   }
 
@@ -674,10 +691,13 @@ p {
   }
   /*hero*/
   #hero {
-    height: 1000px;
+    height: 1200px;
   }
   #hero h1 {
     font-size: 7rem;
+  }
+  #hero .hero-detail {
+    margin-top: 30em;
   }
   #header .nav-bar .brand {
     min-width: 26em;
@@ -744,6 +764,9 @@ p {
   #about .col-right h1 {
     text-align: left;
   }
+  #about .col-right .mentors img {
+    width: 20em;
+  }
 
   /*end about section*/
   /*contact section*/
@@ -792,7 +815,6 @@ p {
 @media only screen and (min-width: 1200px) {
   #header .hamburger {
     display: none;
-    background-color: yellow;
   }
 
   #header .nav-list ul {
